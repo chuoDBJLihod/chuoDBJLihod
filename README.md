@@ -28,11 +28,11 @@
 
 🧮 **Cálculo de Incentivos para Operarias**  
 Sistema web para calcular incentivos con base en eficiencia, integrando bases de datos y lógica condicional.
-      <iframe src="https://chuoDBJLihod.github.io/incentivos/menu.html" width="100%" height="500px" style="border-radius: 8px; border: none; margin-bottom: 10px;"></iframe>
+src="https://chuoDBJLihod.github.io/incentivos/menu.html" 
 
 🛠️ **Control de Tiempos Muertos para Mecánicos**  
 App interna para monitorear tiempos inactivos, detectar cuellos de botella y mejorar productividad en planta.
-      <iframe src="https://chuodbjlihod.github.io/tiempos-muertos/inproduct_time/views/index.html" width="100%" height="500" style="border-radius: 8px; border: none; margin-bottom: 10px;"></iframe>
+src="https://chuodbjlihod.github.io/tiempos-muertos/inproduct_time/views/index.html"
 
 🌐 **Plataforma de Emprendimientos**  
 Sitio web tipo marketplace para promover emprendimientos, desarrollado como proyecto final en el SENA.
