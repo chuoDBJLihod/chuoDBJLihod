@@ -1,6 +1,4 @@
-# Nueva versión del README con más creatividad, imágenes, fuente más grande y nuevos lenguajes
-
-readme_content_creativo = """\
+ 
 <h1 align="center" style="font-size: 32px;">👋 ¡Hola! Soy <span style='color:#007acc;'>Juan Pablo Correa Gómez</span></h1>
 <h3 align="center" style="font-size: 20px;">Tecnólogo en Análisis y Desarrollo de Software | Desarrollador Fullstack en Formación 🚀</h3>
 
@@ -39,7 +37,7 @@ Sitio web tipo marketplace para promover emprendimientos, desarrollado como proy
 
 ---
 
-### 📸 Galería de Proyectos
+ 📸 Galería de Proyectos
 
 <p align="center">
   <img src="https://i.imgur.com/KnxkDNB.png" width="300" />
@@ -48,14 +46,14 @@ Sitio web tipo marketplace para promover emprendimientos, desarrollado como proy
 
 ---
 
-### 📫 ¡Conectemos!
+ 📫 ¡Conectemos!
 
 📧 jcorreagomez761@gmail.com  
 💬 Siempre abierto a colaborar, aprender o simplemente conversar sobre tecnología y código.
 
 ---
 
-### 📊 Mi GitHub en acción
+ 📊 Mi GitHub en acción
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=chuoDBJLihod&show_icons=true&theme=tokyonight&count_private=true" />
@@ -65,7 +63,7 @@ Sitio web tipo marketplace para promover emprendimientos, desarrollado como proy
 
 ---
 
-### 💡 Frase Favorita
+ 💡 Frase Favorita
 
 > *"El software es una gran combinación entre arte e ingeniería." – Bill Gates*
 
@@ -74,11 +72,4 @@ Sitio web tipo marketplace para promover emprendimientos, desarrollado como proy
 <p align="center">
   ¡Gracias por visitar mi perfil! ⭐
 </p>
-"""
 
-# Guardar archivo README mejorado
-readme_creativo_path = "/mnt/data/README_chuoDBJLihod_creativo.md"
-with open(readme_creativo_path, "w", encoding="utf-8") as f:
-    f.write(readme_content_creativo)
-
-readme_creativo_path
