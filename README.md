@@ -1,6 +1,3 @@
-# Reejecutar después del reinicio para generar el archivo README.md estético para GitHub
-
-readme_content = f"""\
 <h1 align="center">Hola 👋, soy Juan Pablo Correa Gómez</h1>
 <h3 align="center">Tecnólogo en Análisis y Desarrollo de Software</h3>
 
@@ -60,11 +57,3 @@ readme_content = f"""\
 
 ### ⚡ Frase que me inspira
 > *"El software es una gran combinación entre arte e ingeniería." – Bill Gates*
-"""
-
-# Guardar archivo README.md
-readme_path = "/mnt/data/README_chuoDBJLihod.md"
-with open(readme_path, "w", encoding="utf-8") as f:
-    f.write(readme_content)
-
-readme_path
