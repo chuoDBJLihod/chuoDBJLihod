@@ -39,10 +39,20 @@ Sitio web tipo marketplace para promover emprendimientos, desarrollado como proy
 
  📸 Galería de Proyectos
 
-<p align="center">
-  <img src="https://i.imgur.com/KnxkDNB.png" width="300" />
-  <img src="https://i.imgur.com/fdJj2zz.png" width="300" />
-</p>
+<section>
+  <h2>🚀 Proyectos</h2>
+  <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px;">
+    <div style="background-color: #2a2a2a; border-radius: 10px; width: 500px; padding: 20px; box-shadow: 0 0 15px rgba(0,0,0,0.4);">
+      <iframe src="https://chuoDBJLihod.github.io/incentivos/menu.html" width="100%" height="500px" style="border-radius: 8px; border: none; margin-bottom: 10px;"></iframe>
+      <h3 style="color: #b497ff;">Software para Cálculo de Incentivos</h3>
+      <p style="font-size: 0.95rem;">Cálculo eficiente de productividad en operarias mediante métricas.</p>
+    </div>
+    <div style="background-color: #2a2a2a; border-radius: 10px; width: 500px; padding: 20px; box-shadow: 0 0 15px rgba(0,0,0,0.4);">
+      <iframe src="https://chuodbjlihod.github.io/tiempos-muertos/inproduct_time/views/index.html" width="100%" height="500" style="border-radius: 8px; border: none; margin-bottom: 10px;"></iframe>
+      <h3 style="color: #b497ff;">Control de Tiempos Muertos</h3>
+      <p style="font-size: 0.95rem;">Registro y análisis de inactividad de mecánicos para mejoras productivas.</p>
+    </div>
+</section>
 
 ---
 
