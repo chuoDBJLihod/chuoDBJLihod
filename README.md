@@ -1,59 +1,84 @@
-<h1 align="center">Hola 👋, soy Juan Pablo Correa Gómez</h1>
-<h3 align="center">Tecnólogo en Análisis y Desarrollo de Software</h3>
+# Nueva versión del README con más creatividad, imágenes, fuente más grande y nuevos lenguajes
+
+readme_content_creativo = """\
+<h1 align="center" style="font-size: 32px;">👋 ¡Hola! Soy <span style='color:#007acc;'>Juan Pablo Correa Gómez</span></h1>
+<h3 align="center" style="font-size: 20px;">Tecnólogo en Análisis y Desarrollo de Software | Desarrollador Fullstack en Formación 🚀</h3>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white"/>
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+  <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="240" height="180" alt="Coding gif"/>
 </p>
 
 ---
 
-### ✨ Sobre mí
+### 🌟 Sobre Mí
 
-👨‍💻 Soy apasionado por crear soluciones digitales que mejoren procesos reales en entornos productivos.  
-💡 Siempre estoy aprendiendo nuevas tecnologías para fortalecer mi perfil como desarrollador.  
-🎯 Me destaco por el pensamiento lógico, la responsabilidad y el trabajo en equipo.
-
----
-
-### 🧠 Tecnologías que manejo
-- **Lenguajes:** PHP, JavaScript, HTML, CSS
-- **Base de datos:** MySQL
-- **Herramientas:** Git, GitHub, VS Code
-- **Metodologías:** SCRUM (básico)
+🎓 Tecnólogo en desarrollo de software con experiencia en la creación de soluciones que optimizan procesos productivos.  
+💡 Me apasiona resolver problemas reales mediante tecnología, con especial interés en el backend, automatización y eficiencia.  
+⚡ Fan de la mejora continua, el aprendizaje autónomo y la programación creativa.  
 
 ---
 
-### 🚀 Proyectos destacados
-- 🧮 **Software para cálculo de incentivos**  
-  Sistema para calcular incentivos de operarias según su eficiencia.
+### 🛠️ Tecnologías y Herramientas
 
-- 🛠 **Control de tiempos muertos de mecánicos**  
-  Herramienta para monitorear y reducir periodos de inactividad.
-
-- 🌐 **Plataforma de emprendimientos (SENA)**  
-  Proyecto web para publicar, ver y gestionar emprendimientos.
-
----
-
-### 📫 Contáctame
-📧 jcorreagomez761@gmail.com
-
----
-
-### 📊 Estadísticas de GitHub
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=chuoDBJLihod&show_icons=true&theme=blueberry" alt="chuoDBJLihod stats"/>
+  <img src="https://skillicons.dev/icons?i=html,css,js,php,java,python,mysql,git,github,vscode" />
+</p>
+
+---
+
+### 🚀 Proyectos Destacados
+
+🧮 **Cálculo de Incentivos para Operarias**  
+Sistema web para calcular incentivos con base en eficiencia, integrando bases de datos y lógica condicional.
+
+🛠️ **Control de Tiempos Muertos para Mecánicos**  
+App interna para monitorear tiempos inactivos, detectar cuellos de botella y mejorar productividad en planta.
+
+🌐 **Plataforma de Emprendimientos**  
+Sitio web tipo marketplace para promover emprendimientos, desarrollado como proyecto final en el SENA.
+
+---
+
+### 📸 Galería de Proyectos
+
+<p align="center">
+  <img src="https://i.imgur.com/KnxkDNB.png" width="300" />
+  <img src="https://i.imgur.com/fdJj2zz.png" width="300" />
+</p>
+
+---
+
+### 📫 ¡Conectemos!
+
+📧 jcorreagomez761@gmail.com  
+💬 Siempre abierto a colaborar, aprender o simplemente conversar sobre tecnología y código.
+
+---
+
+### 📊 Mi GitHub en acción
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=chuoDBJLihod&show_icons=true&theme=tokyonight&count_private=true" />
   <br/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=chuoDBJLihod&theme=blueberry"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=chuoDBJLihod&theme=tokyonight"/>
 </p>
 
 ---
 
-### ⚡ Frase que me inspira
+### 💡 Frase Favorita
+
 > *"El software es una gran combinación entre arte e ingeniería." – Bill Gates*
+
+---
+
+<p align="center">
+  ¡Gracias por visitar mi perfil! ⭐
+</p>
+"""
+
+# Guardar archivo README mejorado
+readme_creativo_path = "/mnt/data/README_chuoDBJLihod_creativo.md"
+with open(readme_creativo_path, "w", encoding="utf-8") as f:
+    f.write(readme_content_creativo)
+
+readme_creativo_path
