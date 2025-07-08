@@ -1,45 +1,70 @@
-# 👋 Hola, soy Juan Pablo Correa Gómez
+# Reejecutar después del reinicio para generar el archivo README.md estético para GitHub
 
-🎓 Tecnólogo en Análisis y Desarrollo de Software  
-💻 Apasionado por crear soluciones digitales que mejoran procesos y optimizan tiempos.
+readme_content = f"""\
+<h1 align="center">Hola 👋, soy Juan Pablo Correa Gómez</h1>
+<h3 align="center">Tecnólogo en Análisis y Desarrollo de Software</h3>
 
----
-
-## 🧠 Sobre mí
-
-Soy una persona comprometida, autodidacta y orientada al trabajo en equipo. He desarrollado software enfocado en mejorar la eficiencia operativa, como sistemas de incentivos y control de tiempos en entornos industriales.
-
----
-
-## 🚀 Tecnologías y herramientas
-
-- 🖥️ Lenguajes: **PHP**, **JavaScript**, **HTML**, **CSS**
-- 🛢️ Bases de datos: **MySQL**
-- 🧰 Herramientas: **Git**, **GitHub**, **Visual Studio Code**
-- 📐 Metodologías: SCRUM (nivel básico)
+<p align="center">
+  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white"/>
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+</p>
 
 ---
 
-## 💼 Proyectos destacados
+### ✨ Sobre mí
 
-### 📊 Sistema de Cálculo de Incentivos
-Aplicación web para registrar operarias y calcular incentivos según la eficiencia.  
-Tecnologías: PHP, MySQL, HTML, JavaScript
-
-### ⏱️ Sistema de Control de Tiempos Muertos
-Software para registrar y analizar tiempos inactivos de mecánicos en planta.
-
-### 🛍️ Plataforma de Emprendimientos (Proyecto final SENA)
-Aplicación tipo vitrina digital para publicar emprendimientos.
+👨‍💻 Soy apasionado por crear soluciones digitales que mejoren procesos reales en entornos productivos.  
+💡 Siempre estoy aprendiendo nuevas tecnologías para fortalecer mi perfil como desarrollador.  
+🎯 Me destaco por el pensamiento lógico, la responsabilidad y el trabajo en equipo.
 
 ---
 
-## 📬 Contacto
+### 🧠 Tecnologías que manejo
+- **Lenguajes:** PHP, JavaScript, HTML, CSS
+- **Base de datos:** MySQL
+- **Herramientas:** Git, GitHub, VS Code
+- **Metodologías:** SCRUM (básico)
 
+---
+
+### 🚀 Proyectos destacados
+- 🧮 **Software para cálculo de incentivos**  
+  Sistema para calcular incentivos de operarias según su eficiencia.
+
+- 🛠 **Control de tiempos muertos de mecánicos**  
+  Herramienta para monitorear y reducir periodos de inactividad.
+
+- 🌐 **Plataforma de emprendimientos (SENA)**  
+  Proyecto web para publicar, ver y gestionar emprendimientos.
+
+---
+
+### 📫 Contáctame
 📧 jcorreagomez761@gmail.com
 
 ---
 
+### 📊 Estadísticas de GitHub
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=chuoDBJLihod&show_icons=true&theme=default" alt="Estadísticas de GitHub">
+  <img src="https://github-readme-stats.vercel.app/api?username=chuoDBJLihod&show_icons=true&theme=blueberry" alt="chuoDBJLihod stats"/>
+  <br/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=chuoDBJLihod&theme=blueberry"/>
 </p>
+
+---
+
+### ⚡ Frase que me inspira
+> *"El software es una gran combinación entre arte e ingeniería." – Bill Gates*
+"""
+
+# Guardar archivo README.md
+readme_path = "/mnt/data/README_chuoDBJLihod.md"
+with open(readme_path, "w", encoding="utf-8") as f:
+    f.write(readme_content)
+
+readme_path
